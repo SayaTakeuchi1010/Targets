@@ -74,3 +74,5 @@ def copy_table_to_another_db(src_db=src_db_,dst_db=dst_db_,tableName=tableName_)
 
     src_db.close()
     dst_db.close()
+
+result=copy_table_to_another_db(src_db_, dst_db_, tableName_)
