@@ -17,8 +17,8 @@ def sqlite_db(path):
 
 
 
-src_db_ = sqlite_db(r'C:\Users\saya6\Desktop\target db\migrating table\ports2.db')
-dst_db_ = sqlite_db(r'C:\Users\saya6\Desktop\target db\migrating table\Target_measured_data_200514_keywords.db')
+src_db_ = sqlite_db(r'C:\Users\saya6\Desktop\target db\migrating table\SYSTEM_without_TARGETS.db')
+dst_db_ = sqlite_db(r'C:\Users\saya6\Desktop\target db\migrating table\Target_measured_data_200515.db')
 tableName_ = 'PORTS'
 def copy_table_to_another_db(src_db=src_db_,dst_db=dst_db_,tableName=tableName_):
 
